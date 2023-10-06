@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1 style="color: darkcyan;">This is my calculator</h1>
+    <h4 style="color: darkcyan;">Let's see if you're smart enough to figure out how to use it</h4>
+    <div  style="padding-top: 10px;" class="container">
+        <div class="calculator">
+            <form>
+                <div style="padding-bottom: 10px;">
+                    <input id="enter1" type="number" name="num1">
+                    <input id="enter2" type="number" name="num2">
+                </div>
+                <div>
+                    <input type="button" value="ADD" onclick="add()">
+                    <input type="button" value="SUB" onclick="subtract()">
+                    <input type="button" value="MUL" onclick="mul()">
+                    <input type="button" value="DIV" onclick="div()">
+                    <p style="color:darkcyan; padding-top: 10px;",>ANSWER = <input id="answer"></p>
+                </div>
+        </form>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

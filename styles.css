@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins' sans-serif;
+    box-sizing: border-box;
+}
+html{
+    width:100%;
+    height:100vh;
+    background: #e3f3ff;
+    display:flex;
+    align-self: center;
+}
+input[type=button]{
+    color:white;
+    height: 30px;
+    width:40px;
+    border-radius: 10px;
+    border-color: darkturquoise;
+    background-color: turquoise;
+}
+input[type=number]{
+    width: 200px;
+    height: 25px;
+}
